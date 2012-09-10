@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Prototypes</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+	<%= yield :additional_styles %>
+  <%= javascript_include_tag "application" %>
+  <%= yield :additional_js %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>

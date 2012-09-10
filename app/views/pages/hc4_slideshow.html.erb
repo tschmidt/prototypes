@@ -1,0 +1,42 @@
+<%- additional_styles 'slideshow/base' -%>
+
+<div class="container">
+	<section class="flushpad selfclear">
+		<h1 class="flushpad-heading">Some Heading Here</h1>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+		
+		<div class="gallery">
+			<div class="gallery-view">
+				<div class="gallery-slide">
+					<div class='inner'>
+						<figure></figure>
+						<h1 class='title'>Financial Aide</h1>
+					</div>
+				</div>
+				<div class="gallery-slide">
+					<div class='inner'>
+						<figure></figure>
+						<h1 class='title'>Background Checks</h1>
+					</div>
+				</div>
+				<div class="gallery-slide">
+					<div class='inner'>
+						<figure></figure>
+						<h1 class='title'>Quiz</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
+
+<script type="text/javascript" charset="utf-8">
+	$('.gallery-view').content_player({
+		dynamicArrows: false,
+		dynamicTabsPosition: 'bottom'
+	});
+	
+	$('.btn-group').css({ width: ($('.btn-group').children().outerWidth() * $('.btn-group').children().length) })
+</script>

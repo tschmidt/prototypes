@@ -1,0 +1,22 @@
+$gaugeWidth: 200px;
+$gaugeHeight: $gaugeWidth / 1.25;
+
+.gauge {
+  margin: 0 15px 15px 0;
+  
+  height: $gaugeHeight;
+  width: $gaugeWidth;
+  
+  float: left;
+  
+  box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+}
+
+.gauge-large {
+  height: $gaugeHeight * 3.2;
+  width: $gaugeWidth * 3.2;
+}
+
+hr {
+  margin-bottom: 30px;
+}

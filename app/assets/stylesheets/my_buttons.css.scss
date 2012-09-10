@@ -1,0 +1,32 @@
+p {
+  padding: 25px;
+}
+
+.mbtn {
+  background-color: #f9f9f9;
+  
+  cursor: pointer;
+  display: inline-block;
+  padding: 4px 10px;
+  margin-bottom: 0;
+  
+  color: #353535;
+  font-size: 13px;
+  line-height: 1.2;
+  text-align: center;
+  vertical-align: middle;
+  
+  border: 1px solid #555;
+  border-radius: 3px;
+}
+
+.mbtn:hover {
+  background-color: #c9c9c9;
+  color: #353535;
+  text-decoration: none; // just in case this is a link
+}
+
+.mbtn:active {
+  background-color: #666;
+  color: #f8f8f8;
+}

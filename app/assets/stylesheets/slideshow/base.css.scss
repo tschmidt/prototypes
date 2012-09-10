@@ -1,0 +1,72 @@
+@import 'bootstrap/_mixins';
+
+html {
+  background-color: #f2f2f2;
+  height: 100%;
+  
+  body {
+    margin: 0 auto;
+    width: 980px;
+    
+    border: 1px solid #d9d9d9;
+    border-bottom: none;
+    border-top: none;
+    @include box-shadow(0 0 5px #d9d9d9);
+  }
+}
+
+.flushpad {
+  padding-top: 60px;
+  
+  .flushpad-heading {
+    font-weight: normal;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    font-size: 1.143em;
+    line-height: 1.65em;
+    margin-bottom: 60px;
+  }
+}
+
+.gallery {
+  margin: 0;
+  padding: 0;
+  margin-left: -20px;
+  margin-right: -20px;
+  
+  overflow: hidden;
+  position: relative;
+  z-index: 1001;
+  
+  .gallery-view {
+    height: 460px;
+    position: relative;
+    
+    .gallery-slide {
+      height: 460px;
+      width: 862px;
+      background-color: #d9d9d9;
+      margin: 0;
+      padding: 0;
+      
+      .title {
+        display: none;
+      }
+      
+      figure {
+        display: inline-block;
+        width: 605.3px;
+        height: 460px;
+        background-color: #333;
+        padding: 0;
+        margin: 0;
+      }
+    }
+  }
+  
+  .btn-group {
+    margin: 30px auto;
+  }
+}

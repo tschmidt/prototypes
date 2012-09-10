@@ -1,0 +1,11 @@
+.modal-backdrop, .modal-backdrop.fade.in {
+  opacity: 0.3;
+}
+
+.container * {
+  -webkit-transition: -webkit-filter .4s;
+}
+
+.modal-open .container * {
+  -webkit-filter: blur(3px);
+}
